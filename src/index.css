@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+li:hover{
+  background-color: "#3a85e0";
+  color: #fff;
+}
+.hero-main{
+  background: url(./assets/hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 70vh; */
+}
+.work-card__box{
+  box-shadow: 5px 10px #2a5698;
+}
+.work-card__img{
+  box-shadow: 0 0 0 5px #2a5698;
+}
