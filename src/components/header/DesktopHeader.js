@@ -7,7 +7,7 @@ const DesktopHeader = ({dropDown,setdropDown}) => {
   return (
     <>
   
-      <nav class='bg-nav-bg   '>
+      <nav class='bg-nav-bg  relative  '>
         <div class='hidden w-full  lg:flex  ' id='navbar-dropdown'>
         
           <ul class=' w-[75%] flex flex-col gap-0  text-white  font-medium  md:flex-row   '>
@@ -92,13 +92,13 @@ const DesktopHeader = ({dropDown,setdropDown}) => {
               </div>   
             </NavLink>
             <NavLink
-              to='/'
+              to='/fleet'
               className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               Our Fleet
             </NavLink><NavLink
-              to='/'
+              to='/contact'
               className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
@@ -110,13 +110,13 @@ const DesktopHeader = ({dropDown,setdropDown}) => {
             >
               Blog
             </NavLink><NavLink
-              to='/'
+              to='/disclaimer'
               className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               Disclaimer
             </NavLink><NavLink
-              to='/'
+              to='/faq'
               className='block py-7 px-3 hover:bg-primary-color text-white'
               aria-current='page'
             >

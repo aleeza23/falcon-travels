@@ -14,6 +14,13 @@ li:hover{
   background-size: cover;
   /* height: 70vh; */
 }
+.fleet-hero{
+  background: url(./assets/fleet-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
 .work-card__box{
   box-shadow: 5px 10px #2a5698;
 }
