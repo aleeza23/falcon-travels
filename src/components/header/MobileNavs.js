@@ -6,87 +6,33 @@ const MobileNavs = () => {
     <nav class='bg-nav-bg '>
         <div class=' w-full lg:hidden   md:w-auto' id='navbar-dropdown'>
         
-          <ul class=' flex flex-col transition duration-700 ease-in-out gap-0 justify-between  text-white  font-medium    '>
+        <ul class=' flex flex-col gap-0 justify-between text-white  font-medium  md:flex-row   '>
             <NavLink
               to='/'
-              className='block py-5 w-full  px-3  text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-            <hr className="border-black" />
-
-            <NavLink
-              to='/'
-              className='block py-5 w-full px-3  text-white'
+              className='block py-7  px-3 bg-primary-color text-white'
               aria-current='page'
             >
               Home
             </NavLink>
 
-            <hr className="border-black" />
+            <hr  className="border-black"/>
 
             <NavLink
               to='/'
-              className='block py-5 px-3 w-full  text-white'
+              className='block py-7  px-3 hover:bg-primary-color text-white'
               aria-current='page'
             >
-              Home
+              About
             </NavLink>
-            <hr className="border-black" />
-            
-            <NavLink
-              to='/'
-              className='block py-5 px-3 w-full  text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-            <hr className="border-black" />
-            
-            <NavLink
-              to='/'
-              className='block py-5 px-3 w-full  text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-            <hr className="border-black" />
-            
-            <NavLink
-              to='/'
-              className='block py-5 px-3 w-full  text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-            <hr className="border-black" />
-            
-            <NavLink
-              to='/'
-              className='block py-5 px-3 w-full  text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-            <hr className="border-black" />
-            
-            <NavLink
-              to='/'
-              className='block py-5 px-3 w-full  text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-            <hr className="border-black" />
 
-            <NavLink>
+            <hr  className="border-black"/>
+
+            <NavLink className='relative group'>
               <button
-                id='dropdownNavbarLink'
-                data-dropdown-toggle='dropdownNavbar'
-                class='text-white flex items-center justify-between  py-5 px-3 w-full hover:bg-primary-color '
+                
+                class='text-white flex items-center justify-between  py-7 px-3 group  hover:bg-primary-color '
               >
-                Dropdown
+                Services
                 <svg
                   class='w-2.5 h-2.5 ms-2.5'
                   aria-hidden='true'
@@ -103,41 +49,119 @@ const MobileNavs = () => {
                   />
                 </svg>
               </button>
+            <hr  className="border-black"/>
+
               {/* <!-- Dropdown menu --> */}
-              <div
+            <div
                 id='dropdownNavbar'
-                class='z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600'
+                class=' shadow-lg  font-normal  divide-y divide-gray-100   '
               >
                 <ul
-                  class='py-2 text-sm text-gray-700 dark:text-gray-400'
+                  class='py-2  text-sm text-white'
                   aria-labelledby='dropdownLargeButton'
                 >
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 text-white'>
-                      Dashboard
+                    <NavLink href='#' className='block ms-6  py-2 px-3 hover:bg-primary-color text-xl  '>
+                      Wedding
                     </NavLink>
                   </li>
+            <hr  className="border-black w-full"/>
+
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 text-white'>
-                      Dashboard
+                    <NavLink href='#' className='block ms-6 py-2 px-3 hover:bg-primary-color text-xl '>
+                      Prom
                     </NavLink>
                   </li>
+            <hr  className="border-black"/>
+
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 text-white'>
-                      Dashboard
+                    <NavLink href='#' className='block ms-6 py-2 px-3 hover:bg-primary-color text-xl '>
+                      Birthday
                     </NavLink>
                   </li>
+            <hr  className="border-black"/>
+
+                  <li>
+                    <NavLink href='#' className='block ms-6 py-2 px-3 hover:bg-primary-color text-xl '>
+                      Bachelorrate Party
+                    </NavLink>
+                  </li>
+            <hr  className="border-black"/>
+
+                  <li>
+                    <NavLink href='#' className='block ms-6 py-2 px-3 hover:bg-primary-color text-xl '>
+                      Nights Out
+                    </NavLink>
+                  </li>
+            <hr  className="border-black"/>
+
+                  <li>
+                    <NavLink href='#' className='block ms-6 py-2 px-3 hover:bg-primary-color text-xl '>
+                      Coperate Transportation
+                    </NavLink>
+                  </li>
+                  
                 </ul>
-                <div class='py-1'>
-                  <a
-                    href='#'
-                    class='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
-                  >
-                    Sign out
-                  </a>
-                </div>
-              </div>
+                
+              </div>   
             </NavLink>
+            <hr  className="border-black"/>
+
+            <NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Our Fleet
+            </NavLink>
+            <hr  className="border-black"/>
+            
+            <NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Contact
+            </NavLink>
+            <hr  className="border-black"/>
+            
+            <NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Blog
+            </NavLink>
+            <hr  className="border-black"/>
+            
+            <NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Disclaimer
+            </NavLink>
+            <hr  className="border-black"/>
+            
+            <NavLink
+              to='/'
+              className='block py-7 px-3 hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              FAQs
+            </NavLink>
+
+            <hr  className="border-black"/>
+
+            <NavLink
+              to='/'
+              className='block py-7 px-3   hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Get Instant Qoute Now
+            </NavLink>
+
+          
             
           </ul>
          

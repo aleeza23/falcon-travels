@@ -3,73 +3,35 @@ import {Link, NavLink} from "react-router-dom";
 import { IoSearchSharp } from "react-icons/io5";
 import Button from "../../constant/Button";
 
-const DesktopHeader = () => {
+const DesktopHeader = ({dropDown,setdropDown}) => {
   return (
     <>
-      <nav class='bg-nav-bg '>
-        <div class='hidden w-full  lg:flex  md:w-auto' id='navbar-dropdown'>
+  
+      <nav class='bg-nav-bg   '>
+        <div class='hidden w-full  lg:flex  ' id='navbar-dropdown'>
         
           <ul class=' w-[75%] flex flex-col gap-0 justify-between text-white  font-medium  md:flex-row   '>
             <NavLink
               to='/'
-              className='block py-5 w-full  px-3 bg-primary-color text-white'
+              className='block py-7  px-3 bg-primary-color text-white'
               aria-current='page'
             >
               Home
             </NavLink>
 
             <NavLink
-              to='/'
-              className='block py-5 w-full px-3 hover:bg-primary-color text-white'
+              to='/about'
+              className='block py-7  px-3 hover:bg-primary-color text-white'
               aria-current='page'
             >
-              Home
+              About
             </NavLink>
-            <NavLink
-              to='/'
-              className='block py-5 px-3 w-full hover:bg-primary-color text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink><NavLink
-              to='/'
-              className='block py-5 px-3 w-full hover:bg-primary-color text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink><NavLink
-              to='/'
-              className='block py-5 px-3 w-full hover:bg-primary-color text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink><NavLink
-              to='/'
-              className='block py-5 px-3 w-full hover:bg-primary-color text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink><NavLink
-              to='/'
-              className='block py-5 px-3 w-full hover:bg-primary-color text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink><NavLink
-              to='/'
-              className='block py-5 px-3 w-full hover:bg-primary-color text-white'
-              aria-current='page'
-            >
-              Home
-            </NavLink>
-
-            <NavLink>
+            <NavLink className='relative group'>
               <button
-                id='dropdownNavbarLink'
-                data-dropdown-toggle='dropdownNavbar'
-                class='text-white flex items-center justify-between  py-5 px-3 w-full hover:bg-primary-color '
+                
+                class='text-white flex items-center justify-between  py-7 px-3 group  hover:bg-primary-color '
               >
-                Dropdown
+                Services
                 <svg
                   class='w-2.5 h-2.5 ms-2.5'
                   aria-hidden='true'
@@ -87,40 +49,88 @@ const DesktopHeader = () => {
                 </svg>
               </button>
               {/* <!-- Dropdown menu --> */}
-              <div
+            <div
                 id='dropdownNavbar'
-                class='z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600'
+                class='z-10 absolute hidden group-hover:block shadow-lg  font-normal bg-white divide-y divide-gray-100   w-72'
               >
                 <ul
                   class='py-2 text-sm text-gray-700 dark:text-gray-400'
                   aria-labelledby='dropdownLargeButton'
                 >
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 text-white'>
-                      Dashboard
+                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                      Wedding
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 text-white'>
-                      Dashboard
+                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                      Prom
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 text-white'>
-                      Dashboard
+                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                      Birthday
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                      Bachelorrate Party
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                      Nights Out
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                      Coperate Transportation
                     </NavLink>
                   </li>
                 </ul>
-                <div class='py-1'>
-                  <a
-                    href='#'
-                    class='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
-                  >
-                    Sign out
-                  </a>
-                </div>
-              </div>
+                
+              </div>   
             </NavLink>
+            <NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Our Fleet
+            </NavLink><NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Contact
+            </NavLink><NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Blog
+            </NavLink><NavLink
+              to='/'
+              className='block py-7 px-3  hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Disclaimer
+            </NavLink><NavLink
+              to='/'
+              className='block py-7 px-3 hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              FAQs
+            </NavLink>
+            <NavLink
+              to='/'
+              className='block py-7 px-3   hover:bg-primary-color text-white'
+              aria-current='page'
+            >
+              Get Instant Qoute Now
+            </NavLink>
+
+          
             
           </ul>
           <div className=' w-[25%] text-white flex pe-4 justify-end items-center '>
@@ -129,6 +139,7 @@ const DesktopHeader = () => {
           
         </div>
       </nav>
+    
     </>
   );
 };

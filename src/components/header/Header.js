@@ -6,11 +6,13 @@ import MobileNavs from "./MobileNavs";
 
 const Header = () => {
     const [toggleNav, settoggleNav] = useState(false);
+    const [dropDown, setdropDown] = useState(false);
+    
     
   return <>
      <Container>
         <Logo toggleNav={toggleNav} settoggleNav={settoggleNav} />
-        <DesktopHeader />
+        <DesktopHeader dropDown={dropDown} setdropDown={setdropDown} />
         {toggleNav && <MobileNavs /> }
      </Container>
   </>;
