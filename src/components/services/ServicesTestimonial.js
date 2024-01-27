@@ -1,8 +1,16 @@
 import React from "react";
 import Container from "../../constant/Container";
 import PopularServicesCard from "./PopularServicesCard";
+import service01 from "../../assets/popular-services-01.webp";
+import service02 from "../../assets/popular-service-02.webp";
+import service03 from "../../assets/popular-services-03.webp";
+import service04 from "../../assets/popular-services-04.webp";
+import service05 from "../../assets/popular-services-05.webp";
+import service06 from "../../assets/popular-services-06.webp";
 
 const ServicesTestimonial = () => {
+
+  const imgArray = [service01, service02, service03, service04, service05, service06]
   return (
     <>
       {/* testimonial one */}
@@ -61,8 +69,8 @@ const ServicesTestimonial = () => {
         <h1 className="font-bold text-4xl my-6 text-dark-blue text-center">POPULAR SERVICES</h1>
 
         <div className="grid grid-cols-3 gap-14 ">
-            {[1,2,3,4,5,6].map((index) => {
-                return <PopularServicesCard key={index} />
+            {imgArray.map((elm,index) => {
+                return <PopularServicesCard elm={elm} key={index} />
             })}
         </div>
       </div>

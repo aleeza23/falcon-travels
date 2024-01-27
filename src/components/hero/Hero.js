@@ -8,8 +8,8 @@ const Hero = () => {
     <>
       <section className='hero-main'>
         <Container>
-          <div className='lg:w-1/2 pt-20'>
-            <h1 className=' text-white text-2xl'>
+          <div className='lg:w-1/2 pt-20 lg:pt-52'>
+            <h1 className=' text-white text-2xl lg:text-4xl'>
               Enjoy the luxury of a lifetime in our brand{" "}
               <span className='text-dark-blue font-bold'>
                 New Range Of Limousines, Party Buses , Charter Coach Buses.

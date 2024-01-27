@@ -3,12 +3,12 @@ import {Link, NavLink} from "react-router-dom";
 import { IoSearchSharp } from "react-icons/io5";
 import Button from "../../constant/Button";
 
-const DesktopHeader = ({dropDown,setdropDown}) => {
+const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
   return (
     <>
   
-      <nav class='bg-nav-bg  relative  '>
-        <div class='hidden w-full  lg:flex  ' id='navbar-dropdown'>
+      <nav class={`bg-nav-bg ${navBar ? 'left-0 fixed top-0 w-full z-50' : ''} `}>
+        <div class={`hidden  mx-auto lg:flex ${navBar ? 'w-[90%]' : ''}  `} id='navbar-dropdown'>
         
           <ul class=' w-[75%] flex flex-col gap-0  text-white  font-medium  md:flex-row   '>
             <NavLink

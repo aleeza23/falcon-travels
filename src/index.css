@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  position: relative;
+}
 
 li:hover{
   background-color: "#3a85e0";
   color: #fff;
 }
 .hero-main{
-  background: url(./assets/hero.webp);
+  background: url(./assets/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 70vh; */

@@ -7,6 +7,8 @@ import Work from "../components/work/Work";
 import Services from "../components/services/Services";
 import Footer from "../components/footer/Footer";
 import CallToAction from "../constant/CallToAction";
+import Parallax from "../components/parallex/Parallax";
+import Reviews from "../components/reviews/Reviews";
 
 const Home = () => {
   return (
@@ -14,9 +16,11 @@ const Home = () => {
       {/* <Header /> */}
       <Hero />
       <Company />
+      <Reviews />
       <Offer />
       <Work />
       <Services />
+      <Parallax />
       {/* <Footer /> */}
     </>
   );

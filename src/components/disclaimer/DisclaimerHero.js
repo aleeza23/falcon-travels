@@ -6,7 +6,7 @@ const DisclaimerHero = () => {
   return (
     <>
       <section
-        className='lg:pb-10 py-5 lg:pt-20 lg:-mt-10'
+        className='lg:pb-10 py-5 lg:pt-20 relative -z-20 lg:-mt-10'
         style={{backgroundColor: "#f0f0f0"}}
       >
         <h1 className='text-center text-4xl'>Disclaimer</h1>
