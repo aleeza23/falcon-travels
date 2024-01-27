@@ -3,7 +3,7 @@ import workImg01 from '../../assets/workImg01.webp'
 import TextOutline from "../../constant/TextOutline";
 
 const WorkCard = () => {
-  return <div className='work-card__box lg:w-[80%] rounded-r-none rounded-bl'>
+  return <div className='work-card__box lg:w-[80%] mx-auto rounded-r-none rounded-bl'>
     <div className="work-card__content rounded bg-white border border-dark-blue  ">
     <div className="work-card__img rounded">
         <img src={workImg01} className="rounded" alt="w-01" />

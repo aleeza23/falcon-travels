@@ -10,10 +10,10 @@ const DesktopHeader = ({dropDown,setdropDown}) => {
       <nav class='bg-nav-bg   '>
         <div class='hidden w-full  lg:flex  ' id='navbar-dropdown'>
         
-          <ul class=' w-[75%] flex flex-col gap-0 justify-between text-white  font-medium  md:flex-row   '>
+          <ul class=' w-[75%] flex flex-col gap-0  text-white  font-medium  md:flex-row   '>
             <NavLink
               to='/'
-              className='block py-7  px-3 bg-primary-color text-white'
+              className='block py-7  px-5 bg-primary-color text-white'
               aria-current='page'
             >
               Home
@@ -21,7 +21,7 @@ const DesktopHeader = ({dropDown,setdropDown}) => {
 
             <NavLink
               to='/about'
-              className='block py-7  px-3 hover:bg-primary-color text-white'
+              className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               About
@@ -93,25 +93,25 @@ const DesktopHeader = ({dropDown,setdropDown}) => {
             </NavLink>
             <NavLink
               to='/'
-              className='block py-7 px-3  hover:bg-primary-color text-white'
+              className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               Our Fleet
             </NavLink><NavLink
               to='/'
-              className='block py-7 px-3  hover:bg-primary-color text-white'
+              className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               Contact
             </NavLink><NavLink
               to='/'
-              className='block py-7 px-3  hover:bg-primary-color text-white'
+              className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               Blog
             </NavLink><NavLink
               to='/'
-              className='block py-7 px-3  hover:bg-primary-color text-white'
+              className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
               Disclaimer
