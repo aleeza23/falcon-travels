@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../constant/Container";
 import Button from "../../constant/Button";
 import carImg from "../../assets/fleet-slider-img.webp";
+import Reviews from "../reviews/Reviews";
 
 const FleetSlider = () => {
   return (
@@ -18,6 +19,7 @@ const FleetSlider = () => {
         </div>
 
         {/* slider */}
+        <Reviews />
 
 
 
