@@ -9,6 +9,7 @@ import OurFleet from "./pages/OurFleet";
 import Contact from "./pages/Contact";
 import Disclaimer from "./pages/Disclaimer";
 import Faqs from "./pages/Faqs";
+import Booking from "./pages/Booking";
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
 
           <Route path='/disclaimer' element={<Disclaimer />} />
           <Route path='/faq' element={<Faqs />} />
+          <Route path='/booking' element={<Booking />} />
+
 
 
 

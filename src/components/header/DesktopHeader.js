@@ -133,8 +133,8 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
           
             
           </ul>
-          <div className=' w-[25%] text-white flex pe-4 justify-end items-center '>
-                <button><IoSearchSharp /></button>
+          <div className=' w-[25%] text-white flex pe-7 justify-end items-center '>
+                <button><IoSearchSharp className="text-2xl" /></button>
             </div>
           
         </div>

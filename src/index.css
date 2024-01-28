@@ -29,3 +29,52 @@ li:hover{
 .work-card__img{
   box-shadow: 0 0 0 5px #2a5698;
 }
+.speech-bubble {
+  position: relative;
+  display: inline-block; 
+  background-color: #3a85e0;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -6px ;
+  border-width: 7px;
+  border-style: solid;
+  /* border-radius: 2px; */
+  border-color: transparent #3a85e0 transparent transparent;
+}
+.form-speech-bubble::after{
+  content: '';
+  position: absolute;
+  bottom: -38px;
+  right: 50%;
+  left:  45%;
+  /* margin-top: -6px ; */
+  border-width: 20px;
+  border-style: solid;
+  /* border-radius: 2px; */
+  border-color: #3a85e0 transparent transparent transparent;
+}
+.react-multiple-carousel__arrow{
+  background-color: transparent !important;
+  color: gray !important;
+}
+.react-multiple-carousel__arrow::before{
+  color: rgba(128, 128, 128, 0.707) !important;
+  font-size: 30px !important;
+  /* left: 100% !important; */
+
+}
+.react-multiple-carousel__arrow--right{
+  left: 97% !important;
+}
+.react-multiple-carousel__arrow--left{
+  left: -1% !important;
+}

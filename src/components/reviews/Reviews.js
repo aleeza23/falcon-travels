@@ -32,7 +32,7 @@ const Reviews = () => {
           autoPlay={true}
           autoPlaySpeed={5000}
         >
-          <div className='border lg:me-4 p-5 hover:text-black'>
+          <div className='border lg:me-6 p-5 hover:text-black'>
             <div className='flex items-center gap-3'>
               <img
                 src='https://lh3.googleusercontent.com/a-/AOh14GgF37ehZa_TTkq9hOJm4Lcaozom63krAOwsFHwD=s120-c-c-rp-w64-h64-mo-br100'
@@ -62,7 +62,7 @@ const Reviews = () => {
               </small>
             </div>
           </div>
-          <div className='border lg:me-4 p-5 hover:text-black'>
+          <div className='border lg:me-6 p-5 hover:text-black'>
             <div className='flex items-center gap-3'>
               <img
                 src='https://lh3.googleusercontent.com/a-/AOh14Gi5UJbte-2nq-RspxZNDC3ta2fLtoqSRwF3I7mi=s120-c-c-rp-w64-h64-mo-br100'
@@ -93,7 +93,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className='border lg:me-4 p-5 hover:text-black'>
+          <div className='border lg:me-6 p-5 hover:text-black'>
             <div className='flex items-center gap-3'>
               <img
                 src='https://lh3.googleusercontent.com/a-/AOh14Gg4JWJbsMK1kGTkE7zlxW2Ham1Z6yzRdnGnXiva=s120-c-c-rp-w64-h64-mo-br100'
@@ -123,7 +123,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className='border lg:me-4 p-5 hover:text-black h-[100%]'>
+          <div className='border lg:me-6 p-5 hover:text-black h-[100%]'>
             <div className='flex items-center gap-3'>
               <img
                 src='https://lh3.googleusercontent.com/a-/AOh14GhxQ5oKllvrr9J9D7wPcaABANabKe_mDHp3a1gH=s120-c-c-rp-w64-h64-mo-br100'
@@ -153,7 +153,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className='border lg:me-4 p-5 hover:text-black h-[100%]'>
+          <div className='border lg:me-6 p-5 hover:text-black h-[100%]'>
             <div className='flex items-center gap-3'>
               <img
                 src='https://lh3.googleusercontent.com/a-/AOh14GihTAgCfBUjyznsJoAdlpuWy8orul5n9TebK0-H=s120-c-c-rp-w64-h64-mo-ba2-br100'
@@ -183,7 +183,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className='border lg:me-4 p-5 hover:text-black'>
+          <div className='border lg:me-6 p-5 hover:text-black'>
             <div className='flex items-center gap-3'>
               <img
                 src='https://lh3.googleusercontent.com/a-/AOh14GhorGDAtAThm2MwdMAZJFYThgQNGEVzB81yQkqD=s120-c-c-rp-w64-h64-mo-br100'
