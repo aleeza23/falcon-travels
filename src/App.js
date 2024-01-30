@@ -10,6 +10,11 @@ import Contact from "./pages/Contact";
 import Disclaimer from "./pages/Disclaimer";
 import Faqs from "./pages/Faqs";
 import Booking from "./pages/Booking";
+import Wedding from "./pages/Wedding";
+import BirthDay from "./pages/BirthDay";
+import NightOut from "./pages/NightOut";
+import SingleVehicle from "./pages/SingleFleet";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
@@ -21,19 +26,17 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/fleet' element={<OurFleet />} />
           <Route path='/contact' element={<Contact />} />
-
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/wedding' element={<Wedding />} />
+          <Route path='/birthday' element={<BirthDay />} />
+          <Route path='/night-out' element={<NightOut />} />
           <Route path='/disclaimer' element={<Disclaimer />} />
           <Route path='/faq' element={<Faqs />} />
           <Route path='/booking' element={<Booking />} />
-
-
-
-
-
+          <Route path='/single-fleet/:fleetName' element={<SingleVehicle />} />
         </Routes>
         <Footer />
-      <CallToAction />
-
+        <CallToAction />
       </BrowserRouter>
     </>
   );

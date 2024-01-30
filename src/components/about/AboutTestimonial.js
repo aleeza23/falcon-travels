@@ -16,7 +16,7 @@ const AboutTestimonial = () => {
 
       {/* testimonial two */}
       <Container>
-        <p className='text-xl'>
+        <p className='text-2xl mt-6'>
           The perfect event needs the perfect ride. Falcon is ready when you
           are!
         </p>

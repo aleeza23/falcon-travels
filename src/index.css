@@ -23,6 +23,21 @@ li:hover{
   
   
 }
+.wedding-hero{
+  background: url(./assets/wedding-hero2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.birthday-hero{
+  background: url(./assets/birthday-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nightout-hero{
+  background: url(./assets/nightout-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .work-card__box{
   box-shadow: 5px 10px #2a5698;
 }
@@ -77,4 +92,24 @@ li:hover{
 }
 .react-multiple-carousel__arrow--left{
   left: -1% !important;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+
+  text-align: left;
+  padding: 12px;
+  font-weight: normal;
+ 
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd34;
+  
 }

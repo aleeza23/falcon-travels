@@ -58,7 +58,7 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
                   aria-labelledby='dropdownLargeButton'
                 >
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                    <NavLink to={'/wedding'} className='block py-2 px-3 hover:bg-primary-color text-xl '>
                       Wedding
                     </NavLink>
                   </li>
@@ -68,7 +68,7 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                    <NavLink to={'/birthday'} className='block py-2 px-3 hover:bg-primary-color text-xl '>
                       Birthday
                     </NavLink>
                   </li>
@@ -78,7 +78,7 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink href='#' className='block py-2 px-3 hover:bg-primary-color text-xl '>
+                    <NavLink to={'/night-out'} className='block py-2 px-3 hover:bg-primary-color text-xl '>
                       Nights Out
                     </NavLink>
                   </li>
@@ -104,7 +104,7 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
             >
               Contact
             </NavLink><NavLink
-              to='/'
+              to='/blog'
               className='block py-7  px-5 hover:bg-primary-color text-white'
               aria-current='page'
             >
@@ -123,7 +123,7 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
               FAQs
             </NavLink>
             <NavLink
-              to='/'
+              to='/booking'
               className='block py-7 px-3   hover:bg-primary-color text-white'
               aria-current='page'
             >

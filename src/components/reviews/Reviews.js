@@ -8,12 +8,12 @@ const Reviews = () => {
     desktop: {
       breakpoint: {max: 3000, min: 1024},
       items: 3,
-      slidesToSlide: 3, // optional, default to 1.
+      slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
       breakpoint: {max: 1024, min: 464},
       items: 2,
-      slidesToSlide: 2, // optional, default to 1.
+      slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
       breakpoint: {max: 464, min: 0},
@@ -23,7 +23,7 @@ const Reviews = () => {
   };
   return (
     <>
-      <div className='container mt-10 mb-32 lg:w-[60%] lg:ms-[10%] '>
+      <div className='container mt-10  lg:w-[60%] lg:ms-[10%] '>
         {/* <div clasw-[sName='grid lg:grid-cols-3'>
           <div className='bg-yellow-500 p-10 lg:col-span-2'> */}
         <Carousel

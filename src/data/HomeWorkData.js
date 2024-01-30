@@ -71,6 +71,18 @@ export const HomeWorkData = [
       total: "10 ",
       image: "https://falcontourtravel.com/wp-content/uploads/2021/10/35-PASSENGER-PARTY-BUS-with-Lavatory-5-600x380.jpg"
     },
+    {
+      title: "Mercedes Sprinter Limousine Black for 12-14 Passengers",
+      passengers: "12-14 ",
+      total: "2 ",
+      image: "https://falcontourtravel.com/wp-content/uploads/2020/09/14-PASSENGER-SPRINTER-LIMOUSINE-4-600x380.jpg"
+    },
+    {
+      title: "Mercedes Sprinter Limo Black for 14 Passengers",
+      passengers: "12-14 ",
+      total: "5 ",
+      image: "https://falcontourtravel.com/wp-content/uploads/2020/09/14-Person-Mercedes-Sprinter-Limo-3-600x380.jpeg"
+    },
     
   ];
    
