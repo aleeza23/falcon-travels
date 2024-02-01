@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='lg:col-span-2'>
               <h1>ABOUT US</h1>
               <TextOutline />
-              <p className='my-8 text-xl'>
+              <p className='my-8 '>
                 ABOUT US We provide nationwide chauffeured services with the
                 latest and greatest high tech, luxury vehicles. Falcon Tour and
                 Travel are committed to bringing you the excellence you deserve.

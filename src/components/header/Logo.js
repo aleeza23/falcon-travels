@@ -55,18 +55,18 @@ const Logo = ({settoggleNav, toggleNav}) => {
           <div className='flex flex-col items-center justify-center h-full'>
             <h1 className='font-bold'>
               <IoMdCheckboxOutline className='inline-block text-icons-color font-bold text-xl -mt-1 me-2 ' />
-              Airport Transfers
+              Wedding Parties
             </h1>
-            <p>Offered At Short Notice</p>
+            <p>Can Be Easily Arranged</p>
           </div>
         </div>
         <div className='logo hidden lg:block  border-l px-3  '>
           <div className='flex flex-col items-center justify-center h-full'>
             <h1 className='font-bold'>
               <IoMdCheckboxOutline className='inline-block text-icons-color font-bold text-xl -mt-1 me-2 ' />
-              Airport Transfers
+              Business Meetings
             </h1>
-            <p>Offered At Short Notice</p>
+            <p>You Will Arrive On Time</p>
           </div>
         </div>
         <div className='logo hidden lg:block  '>

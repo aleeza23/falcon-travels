@@ -30,7 +30,7 @@ const Reviews = () => {
           responsive={responsive}
           infinite={true}
           autoPlay={true}
-          autoPlaySpeed={5000}
+          autoPlaySpeed={3000}
         >
           <div className='border lg:me-6 p-5 hover:text-black'>
             <div className='flex items-center gap-3'>

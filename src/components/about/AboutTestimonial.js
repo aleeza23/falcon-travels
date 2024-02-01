@@ -21,7 +21,7 @@ const AboutTestimonial = () => {
           are!
         </p>
         <TextOutline />
-        <p className='text-xl mt-6'>
+        <p className=' mt-6'>
           We provide nationwide chauffeured services with the latest and
           greatest high tech, luxury vehicles. Falcon Tour and Travel are
           committed to bringing you the excellence you deserve. Our skillful
@@ -34,7 +34,7 @@ const AboutTestimonial = () => {
         </p>
 
         <div className='grid lg:grid-cols-2'>
-          <p className='text-xl mt-14'>
+          <p className=' mt-14'>
             Over the years we have understood the complications of different
             events such as wedding and birthday parties. VIP protocols are our
             priority. Our chauffeurs are trained to treat clients with a smile

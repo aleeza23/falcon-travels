@@ -3,6 +3,7 @@ import Container from "../../constant/Container";
 import Button from "../../constant/Button";
 import carImg from "../../assets/fleet-slider-img.webp";
 import Reviews from "../reviews/Reviews";
+import { Fade } from "react-reveal";
 
 const FleetSlider = () => {
   return (
@@ -24,9 +25,14 @@ const FleetSlider = () => {
 
 
         {/* card */}
-       <div className='border rounded-tr-3xl border-icons-color my-10 rounded-bl-3xl lg:col-span-2'>
-          <img src={carImg} alt='fleet-one' className='mx-auto ' />
+
+        <div className='border rounded-tr-3xl border-icons-color my-10 rounded-bl-3xl lg:col-span-2'>
+          <Fade right>
+            <img src={carImg} alt='fleet-one' className='mx-auto ' />
+          </Fade>
         </div>
+
+
       </Container>
     </>
   );

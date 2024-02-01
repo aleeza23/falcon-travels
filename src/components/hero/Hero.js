@@ -15,7 +15,7 @@ const Hero = () => {
                 New Range Of Limousines, Party Buses , Charter Coach Buses.
               </span>
             </h1>
-            <p className='text-white text-xl mt-10'>
+            <p className='text-white lg:text-3xl mt-10'>
               With us, you don’t have to worry about safety at all! Our
               impeccable safety records ensure you enjoy the time of your life
               with the utmost protection.

@@ -1,96 +1,111 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
+body {
   position: relative;
+  font-family: 'Montserrat', sans-serif;
 }
 
-li:hover{
+li:hover {
   background-color: "#3a85e0";
   color: #fff;
 }
-.hero-main{
+.hero-main {
   background: url(./assets/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 70vh; */
 }
-.fleet-hero{
+.fleet-hero {
   background: url(./assets/fleet-hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  
-  
 }
-.wedding-hero{
+.wedding-hero {
   background: url(./assets/wedding-hero2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.birthday-hero{
+.birthday-hero {
   background: url(./assets/birthday-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.nightout-hero{
+.nightout-hero {
   background: url(./assets/nightout-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.work-card__box{
+.work-card__box {
   box-shadow: 5px 10px #2a5698;
 }
-.work-card__img{
+.work-card__img {
   box-shadow: 0 0 0 5px #2a5698;
 }
 .speech-bubble {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
   background-color: #3a85e0;
   border-radius: 10px;
   color: #fff;
   text-align: center;
-  
 }
 
 .speech-bubble::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   right: 100%;
-  margin-top: -6px ;
+  margin-top: -6px;
   border-width: 7px;
   border-style: solid;
   /* border-radius: 2px; */
   border-color: transparent #3a85e0 transparent transparent;
 }
-.form-speech-bubble::after{
-  content: '';
+.form-speech-bubble::after {
+  content: "";
   position: absolute;
   bottom: -38px;
   right: 50%;
-  left:  45%;
+  left: 45%;
   /* margin-top: -6px ; */
   border-width: 20px;
   border-style: solid;
   /* border-radius: 2px; */
   border-color: #3a85e0 transparent transparent transparent;
 }
-.react-multiple-carousel__arrow{
+.animated-btn {
+  animation: bounce 1s linear infinite ;
+  animation-delay: 6s;
+  
+}
+@keyframes bounce {
+  0%{
+    transform: translateY(-5px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+
+}
+.react-multiple-carousel__arrow {
   background-color: transparent !important;
   color: gray !important;
 }
-.react-multiple-carousel__arrow::before{
+.react-multiple-carousel__arrow::before {
   color: rgba(128, 128, 128, 0.707) !important;
   font-size: 30px !important;
   /* left: 100% !important; */
-
 }
-.react-multiple-carousel__arrow--right{
-  left: 97% !important;
+.react-multiple-carousel__arrow--right {
+  left: 94% !important;
 }
-.react-multiple-carousel__arrow--left{
+.react-multiple-carousel__arrow--left {
   left: -1% !important;
 }
 table {
@@ -99,17 +114,16 @@ table {
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border-left: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
 
   text-align: left;
   padding: 12px;
   font-weight: normal;
- 
 }
 
 tr:nth-child(even) {
   background-color: #dddddd34;
-  
 }

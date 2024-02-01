@@ -1,12 +1,15 @@
 import React from "react";
 import Container from "../../constant/Container";
+import { Bounce } from "react-reveal";
 
 const WeddingHero = () => {
   return (
     <>
       <section className='wedding-hero '>
         <Container>
+        
           <div className='lg:w-1/2 pt-20 lg:pt-40 lg:pb-20 ms-auto'>
+          <Bounce >
             <h1 className=' text-white text-3xl  lg:text-4xl'>
               The Leading{" "}
               <span className='text-dark-blue font-bold'>
@@ -24,6 +27,8 @@ const WeddingHero = () => {
             Book the most elegant
               exotic vehicle from our wedding limo service!
             </p>
+          </Bounce>
+            
             
           </div>
         </Container>

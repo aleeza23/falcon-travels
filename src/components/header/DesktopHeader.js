@@ -1,19 +1,21 @@
 import React from "react";
-import {Link, NavLink} from "react-router-dom";
+import {Link, NavLink, useLocation, } from "react-router-dom";
 import { IoSearchSharp } from "react-icons/io5";
 import Button from "../../constant/Button";
 
 const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
+ const path = useLocation().pathname
+//  console.log(path);
   return (
     <>
   
       <nav class={`bg-nav-bg ${navBar ? 'left-0 fixed top-0 w-full z-50' : ''} `}>
         <div class={`hidden  mx-auto lg:flex ${navBar ? 'w-[90%]' : ''}  `} id='navbar-dropdown'>
         
-          <ul class=' w-[75%] flex flex-col gap-0  text-white  font-medium  md:flex-row   '>
+          <ul class=' font-sans w-[75%] flex flex-col gap-0  text-white  font-medium  md:flex-row   '>
             <NavLink
               to='/'
-              className='block py-7  px-5 bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               Home
@@ -21,7 +23,7 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
 
             <NavLink
               to='/about'
-              className='block py-7  px-5 hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/about' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               About
@@ -93,38 +95,38 @@ const DesktopHeader = ({dropDown,setdropDown, navBar}) => {
             </NavLink>
             <NavLink
               to='/fleet'
-              className='block py-7  px-5 hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/fleet' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               Our Fleet
             </NavLink><NavLink
               to='/contact'
-              className='block py-7  px-5 hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/contact' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               Contact
             </NavLink><NavLink
               to='/blog'
-              className='block py-7  px-5 hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/blog' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               Blog
             </NavLink><NavLink
               to='/disclaimer'
-              className='block py-7  px-5 hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/disclaimer' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               Disclaimer
             </NavLink><NavLink
               to='/faq'
-              className='block py-7 px-3 hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/faq' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               FAQs
             </NavLink>
             <NavLink
               to='/booking'
-              className='block py-7 px-3   hover:bg-primary-color text-white'
+              className={`block py-7  px-5 ${path === '/booking' ? 'bg-primary-color' : "" }  text-white`}
               aria-current='page'
             >
               Get Instant Qoute Now
